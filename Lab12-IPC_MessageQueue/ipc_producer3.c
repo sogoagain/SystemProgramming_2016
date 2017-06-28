@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
     int msgid;
     struct my_msg_st some_data;
     long int msg_to_receive = 2;
-    const char* my_Addr = "sogoesagain.github.io";
+    const char* my_Addr = "sogoagain.github.io";
     char str_input[INPUT_LENGTH];
     size_t msg_size = sizeof(some_data) - sizeof(long);
 

@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
     struct shared_use_st *shared_stuff;
     int shmid;
     char str_input[INPUT_LENGTH];
-    const char* my_Addr = "sogoesagain.github.io";
+    const char* my_Addr = "sogoagain.github.io";
 
     // 세마포 생성
     sem_id = semget((key_t)5678, 1, 0666 | IPC_CREAT);

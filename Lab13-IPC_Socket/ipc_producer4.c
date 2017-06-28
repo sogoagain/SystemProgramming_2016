@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
     struct sockaddr_un producer_addr;
     struct sockaddr_un consumer_addr;
     struct my_msg_st some_data;
-    const char *my_Addr = "sogoesagain.github.io";
+    const char *my_Addr = "sogoagain.github.io";
     char str_input[INPUT_LENGTH];
 
     // 기존의 명명된 소켓을 삭제하고, 서버를 위한 이름없는 소켓을 생성한다.

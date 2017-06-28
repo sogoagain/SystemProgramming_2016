@@ -3,7 +3,7 @@
 int main(int argc, char** argv) {
     int producer_fifo_fd, consumer_fifo_fd;
     struct data_to_pass_st my_data;
-    const char *my_NAME = "sogoesagain";
+    const char *my_NAME = "sogoagain";
     int read_res = 0;
 
     producer_fifo_fd = open(PRODUCER_FIFO_NAME, O_WRONLY);

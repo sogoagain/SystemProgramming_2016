@@ -60,7 +60,7 @@ int main() {
     int status;
     int i = 0;
     
-    printf("sogoesagain.github.io\n");
+    printf("sogoagain.github.io\n");
     srand(time(NULL));
     
     for(int i = 0; i < NUM_OF_THREAD; i++) {

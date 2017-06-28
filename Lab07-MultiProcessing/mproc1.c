@@ -21,7 +21,7 @@ void zombie_handler() {
 int main(int argc, char** argv) {
     int i  = 0;
     
-    printf("sogoesagain.github.io\n");
+    printf("sogoagain.github.io\n");
     int pid;
     
     signal(SIGCHLD, (void *)zombie_handler);

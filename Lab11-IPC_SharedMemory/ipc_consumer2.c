@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
     void *shared_memory = (void *)0;
     struct shared_use_st *shared_stuff;
     int shmid;
-    const char* my_NAME = "sogoesagain";
+    const char* my_NAME = "sogoagain";
 
     // 세마포 생성
     sem_id = semget((key_t)5678, 0, 0666 | IPC_CREAT);

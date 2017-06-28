@@ -4,7 +4,7 @@ int main(int argc, char **argv) {
     int producer_fifo_fd, consumer_fifo_fd;
     struct data_to_pass_st my_data;
     int read_res;
-    const char *my_Addr = "sogoesagain.github.io";
+    const char *my_Addr = "sogoagain.github.io";
     char str_input[BUFFER_SIZE];
 
     // FIFO 파일을 생성한다.

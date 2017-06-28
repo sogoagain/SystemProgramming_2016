@@ -6,7 +6,7 @@ int main(int agrc, char **argv) {
     struct sockaddr_un address;
     int result;
     struct my_msg_st some_data;
-    const char *my_NAME = "sogoesagain";
+    const char *my_NAME = "sogoagain";
 
     // 소비자쪽 소켓을 만든다.
     sockfd = socket(AF_UNIX, SOCK_STREAM, 0);

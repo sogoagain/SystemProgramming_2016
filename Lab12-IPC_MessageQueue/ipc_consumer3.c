@@ -4,7 +4,7 @@ int main(int argc, char **argv) {
     int msgid;
     struct my_msg_st some_data;
     long int msg_to_receive = 1;
-    const char* my_NAME = "sogoesagain";
+    const char* my_NAME = "sogoagain";
     size_t msg_size = sizeof(some_data) - sizeof(long);
 
     // 메시지 대기열 설정
